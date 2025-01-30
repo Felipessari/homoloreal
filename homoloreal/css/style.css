@@ -1,0 +1,709 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais do header */
+  header {
+    background-color: #1c1c1c; /* Cor de fundo escura */
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do container principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f8b2ba; /* Cor de destaque */
+  }
+  
+  /* Navegação */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Menu de navegação */
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin: 0 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #f8b2ba; /* Cor de destaque no hover */
+  }
+  
+  /* Botão para tutores */
+  .btn-tutores {
+    background-color:#f8b2ba;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-tutores:hover {
+    background-color: #f8b2ba;
+  }
+  
+  /* Menu mobile */
+  .menu-mobile {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+  }
+  
+  /* Estilos para tela pequena */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #1c1c1c;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+  
+    .menu-mobile {
+      display: block;
+    }
+  
+    .menu.active {
+      display: block;
+    }
+  }
+  
+  /* Reset e box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral do body */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  .parallax {
+    position: relative;
+    background-image: url('//img/pexels-canaros-2693561.jpg'); /* Substitua pela imagem desejada */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden; /* Garante que a imagem extra não saia */
+}
+
+.parallax img {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    transition: transform 0.2s ease-out;
+}
+
+.parallax:hover img {
+    transform: scale(1.1); /* Zoom leve ao passar o mouse */
+}
+
+
+.parallax img {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    transition: transform 0.2s ease-out;
+}
+
+.parallax:hover img {
+    transform: scale(1.1); /* Zoom leve ao passar o mouse */
+}
+
+
+  
+  
+  .parallax h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .parallax p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  /* Seção Sobre */
+  .sobre {
+    background-color: white;
+    padding: 80px 0;
+  }
+  
+  .sobre .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .sobre .texto {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .sobre .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre .texto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre .texto .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #f9a826;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sobre .texto .btn:hover {
+    background-color: #f28e17;
+  }
+  
+  .sobre .imagem {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .sobre .imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+ /* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Efeito Parallax */
+  .parallax {
+    background-image: url('img/parallax-background.jpg'); /* Substitua pela imagem desejada */
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .parallax h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .parallax p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  /* Seção Sobre */
+  .sobre {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .sobre .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sobre .texto {
+    max-width: 60%;
+  }
+  
+  .sobre h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .sobre p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .sobre .btn {
+    background-color: #f9a826;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sobre .btn:hover {
+    background-color: #f28e17;
+  }
+  
+  .sobre .imagem img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+ /* Reset e box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral do body */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  /* Seção Parallax */
+  .parallax {
+    background-image: url('img/parallax-bg.jpg'); /* Substitua pela imagem de fundo desejada */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .parallax h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .parallax p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  /* Seção Sobre */
+  .sobre {
+    background-color: white;
+    padding: 80px 0;
+  }
+  
+  .sobre .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .sobre .texto {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .sobre .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre .texto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre .texto .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #f9a826;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sobre .texto .btn:hover {
+    background-color: #f28e17;
+  }
+  
+  .sobre .imagem {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .sobre .imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Seção Quem Somos */
+  .quem-somos {
+    padding: 80px 0;
+    background-color: #f1f1f1;
+  }
+  
+  .quem-somos .container {
+    text-align: center;
+  }
+  
+  .quem-somos .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .quem-somos .card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .quem-somos .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .quem-somos .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .quem-somos .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quem-somos .card .descricao {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Seção Diferenciais */
+  .diferenciais {
+    padding: 80px 0;
+  }
+  
+  .diferenciais .container {
+    text-align: center;
+  }
+  
+  .diferenciais .diferenciais-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .diferenciais .diferencial-item {
+    flex: 1;
+    max-width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .diferenciais .diferencial-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .diferenciais .diferencial-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .diferenciais .diferencial-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .diferenciais .diferencial-item p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Seção Serviços */
+  .servicos {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+  }
+  
+  .servicos .container {
+    text-align: center;
+  }
+  
+  .servicos .servicos-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .servicos .servico-item {
+    flex: 1;
+    max-width: 250px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .servicos .servico-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .servicos .servico-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .servicos .servico-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .servicos .servico-item p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Efeito Fade-in para as seções */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media (max-width: 768px) {
+    .sobre .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .sobre .imagem {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .quem-somos .cards-container {
+      flex-direction: column;
+    }
+  
+    .diferenciais .diferenciais-list {
+      flex-direction: column;
+    }
+  
+    .servicos .servicos-list {
+      flex-direction: column;
+    }
+  }
+ /* Seção Contato */
+.content {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    text-align: center; /* Garante que todo o conteúdo dentro esteja centralizado */
+  }
+  
+  .content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  /* Seção Contato - Adicionando ícones de contato */
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .contact-icon {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-icon:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #f9a826;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade para Footer e ícones de contato */
+  @media (max-width: 768px) {
+    .contact-icons {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .contact-icon img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    footer p {
+      font-size: 14px;
+    }
+  }
+
+  
